@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#cde4f1, #f6ff00);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 17px;
+    padding: 15;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_image {
+    position: absolute;
+    bottom: 57%;
+    left: 50%;
+    transform: translate( -63%, 20%);
+    height: 20%;
+}
+
+.pokemon_data {
+    position: absolute;
+    font-weight: 1000;
+    bottom: 30%;
+    left: 30%;
+    top: 55%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.form {
+    position: absolute;
+    background-color: rgb(218, 59, 59);
+    width: 40%;
+    top: 70%;
+    left: 5%;
+}
+
+.input_search {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #060606;
+    border-radius: 5%;
+    font-weight: 20%;
+    color: rgb(0, 0, 0);
+    font-size: clamp(8px, 5vw, 1rem);
+}
+
+.buttons {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-57%, 0);
+    display: table;
+     }
+
+.botao {
+    width: 40%;
+    padding: 4%;
+    border: 2px solid black;
+    font-weight: 500;
+    color: #000000;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 1000;
+    }
+
